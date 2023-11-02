@@ -6,16 +6,20 @@
     <title>Create Party Form</title>
 </head>
 <body>
-    <form>
+    <form action="index.html"id="submitButton" method="GET">
         <label>Party Name: </label><br>
-        <input type = "text" id ="partyName"><br>
+        <input type = "text" id ="partyName" name ="partyName"><br>
         <label>Party Location: </label><br>
-        <input type = "text" id = "partyLocation"><br>
+        <input type = "text" id = "partyLocation" name ="partyLocation"><br>
         <label>Party Date: </label><br>
-        <input type = "text" id ="partyDate"><br>
+        <input type = "text" id ="partyDate" name ="partyDate"><br>
         <label>Party Description: </label><br>
-        <input type = "text" id ="partyDescription"><br>
+        <input type = "text" id ="partyDescription" name ="partyDescription"><br>
+        <input type = "submit"  value ="Submit">
+    
     </form>
 </body>
 <script src = "index.js"></script>
+<script src = "form.js"></script>
+
 </html>

@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    margin:auto;
+    width:50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    gap:100px;
+}
+.partyblock{
+    border: 1px solid black;
+    position: relative;
+}
+
+.partyblock > h2{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.deletebutton{
+    height:50px;
+    width: 80px;
+    position: absolute;
+    top:10px;
+    right:10px;
+    color: red;
+}
+
+#create{
+    background-color:rgb(173, 255, 47);
+    color: black;
+    width: 100px;
+}
+
+#create:hover{
+    background-color:rgb(131, 192, 41);
+}
